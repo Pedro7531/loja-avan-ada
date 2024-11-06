@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortobom</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <header>
+        <h1>Ortobom</h1>
+        <p>Sua loja preferida de colchão</p>
+    </header>
+    <div>
+        <aside>
+            <fieldset>
+                <legend>Checkout</legend>
+                <form method="post">
+                    <label>Colchão</label>
+                    <input class="form-control" type="text" value="Colchão de mola" /> <br />
+                    <label>Nome</label> 
+                    <input class="form-control" name="nome" type="text" autofocus placeholder="Informe seu nome completo" required /> <br />
+                    <label>Email</label> 
+                    <input class="form-control" name="Email" type="email" placeholder="Informe seu email" required/> <br /> <br />
+                    <label>Colchão</label> <br />
+                    <input name="colchão" id="radio1" type="radio" value="1"> <label for="radio1" >Colchão de mola</label> <br />
+                    <input name="colchão" id="radio2" type="radio" value="2"> <label for="radio2">Colchão de espuma</label> <br />
+                    <input name="colchão" id="radio3" type="radio" value="3"> <label for="radio3">Colchão acoplado</label> <br />
+                    <input name="colchão" id="radio4" type="radio" value="4"> <label for="radio4">Colchão ortopédico</label> <br />
+                    <br />
+                    <label>Forma de pagamento</label><br />
+                    <select class="form-control" name="pagamento">     
+                        <option value="Dinheiro">Dinheiro</option>
+                        <option value="Débito">Débito</option>
+                        <option value="Crédito">Crédito</option>
+                        <option value="PIX">PIX</option>
+                    </select>
+                    <br />
+                    <br />
+                    <button class=" btn btn-salvar" type="submit">comprar</button>
+                    <button class="btn btn-limpar" type="reset">Limpar</button>
+                </form>
+            </fieldset>
+        </aside>
+    </div>
+    <footer>
+        <br />
+        <br />    
+        <hr />
+        <p align="center"> Ortobom &reg; 2024 - By Pedro Henrique</p>  
+        <br />
+        <br />      
+    </footer>
+</body>
+</html>
